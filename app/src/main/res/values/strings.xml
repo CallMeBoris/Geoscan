@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Geoscan plane</string>
+    <string name="controlDrone">Control drone</string>
+    <string name="versions">Versions</string>
+</resources>

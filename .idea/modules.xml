@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Geoscan_plane.iml" filepath="$PROJECT_DIR$/.idea/modules/Geoscan_plane.iml" group="Geoscan_plane" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Geoscan plane/app" />
+    </modules>
+  </component>
+</project>

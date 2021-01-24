@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlDrone">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:layout_margin="5dp"
+        android:layout_marginTop="0dp">
+        <TableRow
+            style="@style/TableRowGlobal"
+            android:layout_weight="3">
+            <ImageView
+                style="@style/ControlEverything"
+                android:id="@+id/helicopter"/>
+        </TableRow>
+
+        <TableRow
+            style="@style/TableRowGlobal"
+            android:layout_weight="1">
+            <TableLayout
+                style="@style/ControlEverything"
+                android:layout_marginRight="5dp">
+
+                <TableRow style="@style/ControlEverything">
+                    <TableRow style="@style/ControlEverything"/>
+                    <TableRow style="@style/ControlEverything">
+                        <Button
+                            style="@style/ControlEverything"
+                            android:id="@+id/throttleUp"
+                            android:onClick="throttleUp"/>
+                    </TableRow>
+                    <TableRow style="@style/ControlEverything"/>
+                </TableRow>
+
+                <TableRow style="@style/ControlEverything">
+                    <TableRow style="@style/ControlEverything">
+                        <Button
+                            style="@style/ControlEverything"
+                            android:id="@+id/yawLeft"
+                            android:onClick="yawLeft"/>
+                    </TableRow>
+                    <TableRow style="@style/ControlEverything"/>
+                    <TableRow style="@style/ControlEverything">
+                        <Button
+                            style="@style/ControlEverything"
+                            android:id="@+id/yawRight"
+                            android:onClick="yawRight"/>
+                    </TableRow>
+                </TableRow>
+
+                <TableRow style="@style/ControlEverything">
+                    <TableRow style="@style/ControlEverything"/>
+                    <TableRow style="@style/ControlEverything">
+                        <Button
+                            style="@style/ControlEverything"
+                            android:id="@+id/throttleDown"
+                            android:onClick="throttleDown"/>
+                    </TableRow>
+                    <TableRow style="@style/ControlEverything"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                style="@style/ControlEverything"
+                android:layout_marginLeft="5dp">
+
+                <TableRow style="@style/ControlEverything">
+                    <TableRow style="@style/ControlEverything"/>
+                    <TableRow style="@style/ControlEverything">
+                        <Button
+                            style="@style/ControlEverything"
+                            android:id="@+id/pitchDown"
+                            android:onClick="pitchDown"/>
+                    </TableRow>
+                    <TableRow style="@style/ControlEverything"/>
+                </TableRow>
+
+                <TableRow style="@style/ControlEverything">
+                    <TableRow style="@style/ControlEverything">
+                        <Button
+                            style="@style/ControlEverything"
+                            android:id="@+id/rollLeft"
+                            android:onClick="rollLeft"/>
+                    </TableRow>
+                    <TableRow style="@style/ControlEverything"/>
+                    <TableRow style="@style/ControlEverything">
+                        <Button
+                            style="@style/ControlEverything"
+                            android:id="@+id/rollRight"
+                            android:onClick="rollRight"/>
+                    </TableRow>
+                </TableRow>
+
+                <TableRow style="@style/ControlEverything">
+                    <TableRow style="@style/ControlEverything"/>
+                    <TableRow style="@style/ControlEverything">
+                        <Button
+                            style="@style/ControlEverything"
+                            android:id="@+id/pitchUp"
+                            android:onClick="pitchUp"/>
+                    </TableRow>
+                    <TableRow style="@style/ControlEverything"/>
+                </TableRow>
+
+            </TableLayout>
+        </TableRow>
+</TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
